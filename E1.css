@@ -1,0 +1,25 @@
+body{
+	background-image: url(http://mnba.gov.br/portal/images/Imagens/galeria-brasileira-de-arte/galeria-brasileira-de-artes01.JPG);
+	background-size: 99.9vw 49.8vw;
+	display: flex;
+	justify-content: center;
+}
+#contenedor{
+	width: 98vw;
+	height: 47vw;	
+	display: flex;
+	flex-direction: wrap;
+	align-items: center;
+	justify-content: space-around;
+	align-content: space-around;
+}
+#A, #C {
+	width: 20vw;
+	height: 45vw;
+} 
+#A, #B, #C{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
